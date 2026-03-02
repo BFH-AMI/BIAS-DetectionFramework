@@ -20,11 +20,7 @@ def evaluate_combinations(combinations, calc_pvalue_bool, p_value_iterations, fu
         print(f"\nEvaluating {dataset} with {metric} and {embedding} for language {language} with model {modelname}...\n")
         
         # Initialize the model
-        if embedding == "word2vec":
-            model = Word2VecModel(folderpath+word2vecfile)
-        elif embedding == "glove":
-            model = GloveModel(folderpath+glovefile)
-        elif embedding == "fasttext":
+        if embedding == "fasttext":
             model = FasttextModel(folderpath+fasttextfile.replace("XX", language))
         # Bert models
         elif embedding == "bert":
@@ -35,14 +31,6 @@ def evaluate_combinations(combinations, calc_pvalue_bool, p_value_iterations, fu
             model = BertModel(folderpath+modelname, embedding = 'first')
         elif embedding == "mBERT":
             model = BertModel(folderpath+mbertfile)
-
-        # API models
-        elif embedding == "OpenAI_large":
-            model = OpenAiModel(model_name = "text-embedding-3-large")
-        elif embedding == "OpenAI_small":
-            model = OpenAiModel(model_name = "text-embedding-3-small")
-        elif embedding == "mVoyage":
-            model = VoyageModel(model_name = "voyage-multilingual-2")
 
 
         # Load the model

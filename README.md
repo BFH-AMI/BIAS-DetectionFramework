@@ -98,9 +98,9 @@ The following table gives an overview of the options for the different values me
 |----------|----------|
 | dataset | Available datasets for the corresponding language can be found in datasets/<language>. For example, available WEAT tests for English are stored in datasets/en/WEAT/*.txt. You would use here the filename without the .txt |
 | testname | WEAT, SEAT, LPBS, CROWS (refer to paper (https://arxiv.org/abs/2407.18689) for details about the different tests) |
-| embeddings | fasttext, word2vec, glove, mBERT, bert, bert_pooling, bert_first (refer to paper (https://arxiv.org/abs/2407.18689) for details about the different embeddings) |
+| embeddings | fasttext, mBERT, bert, bert_pooling, bert_first (refer to paper (https://arxiv.org/abs/2407.18689) for details about the different embeddings) |
 | languages | Available languages depending on the datasets and model selection (de=German, en=English, no=Norwegian, is=Icelandic, it=Italian, ne=Dutch, tr=Turkish) |
-| modelname | Set to None for fasttext, word2vec, glove, mBERT. For BERT, select the corresponding model name, e.g., for English bert-base-uncased, or for Norwegian ltg/norbert3-base **TODO: Integrate OpenAI and VoyageAPI Documentation** |
+| modelname | Set to None for fasttext. For BERT, select the corresponding model name, e.g., for English bert-base-uncased, or for Norwegian ltg/norbert3-base |
 
 **Step 4:** Running the experiments 
 ```
