@@ -17,8 +17,8 @@ Rankwiler, L., & Kurpicz-Briki, M. (2024, June). Evaluating Labor Market Biases 
 Alexandre Puttick and Mascha Kurpicz-Briki. 2025. Detecting Bias and Intersectional Bias in Italian Word Embeddings and Language Models. In Proceedings of the 6th Workshop on Gender Bias in Natural Language Processing (GeBNLP), pages 33–51, Vienna, Austria. Association for Computational Linguistics. 
 Available at https://aclanthology.org/2025.gebnlp-1.3/
 
-Kurpicz-Briki, M., Ikae, C., Puttick, A., Rafnsdóttir, G. L., Haraldsdottir, R. K., Rigotti, C., Fosch-Villaronga, E., Sangiuliano, M., Kharas, M., & Søraa, R. A. (2025). From Co-Creation to Technical Bias Detection Methods: an Interdisciplinary Showcase from the BIAS Project. Zenodo. 
-Available at https://doi.org/10.5281/zenodo.18015591
+Kurpicz-Briki, M., Ikae, C., Puttick, A., Rafnsdóttir, G. L., Haraldsdottir, R. K., Rigotti, C., Fosch-Villaronga, E., Sangiuliano, M., Kharas, M., & Søraa, R. A. (2026). From Co-Creation to Technical Bias Detection Methods: an Interdisciplinary Showcase from the BIAS Project. Frontiers in Artificial Intelligence. 
+Available at [https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1795293/full](https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1795293/full)
 
 ## Installation Guide 
 
